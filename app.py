@@ -140,7 +140,7 @@ app.secret_key=os.urandom(24)
 conn = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='Vishva2003',
+    password='root',
     database='portfolio'
 )
 cursor = conn.cursor()
